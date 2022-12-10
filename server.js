@@ -18,7 +18,8 @@ app.post('/email', async (req, res) => {
     const { name, phone, email, msg, subject } = req.body;
 
     const message = {
-        to: 'kleanique1@gmail.com',
+        // to: 'kleanique1@gmail.com',
+        to: 'info@kleanique.co.za',
         from: {
             name,
             email: "goldenimperialswifttech@gmail.com"
